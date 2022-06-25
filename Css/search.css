@@ -1,0 +1,38 @@
+#filterIcon {
+  cursor: pointer;
+}
+.filter-column {
+  display: none;
+}
+input:checked + span {
+  color: #bf40bf;
+}
+time {
+  bottom: 5px;
+  left: 5px;
+}
+.card .fa-play {
+  position: absolute;
+  top: 43%;
+  right: 46%;
+  color: #2c3131c7;
+  display: none;
+}
+@media (max-width: 767px) {
+  .card .top-image {
+    width: 100%;
+  }
+  .card .fa-play {
+    top: 46%;
+    right: 48%;
+  }
+}
+@media (min-width: 320px) and (max-width: 450px) {
+  .card .channel {
+    display: block;
+    margin-top: 10px;
+  }
+  .card .channel img {
+    margin-right: 0px !important;
+  }
+}
